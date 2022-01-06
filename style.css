@@ -23,7 +23,7 @@ h1{
     padding: 10px 40px;
     border-radius: 10px;
 }
-#full{
+#line{
     border-left: 7px solid;
     border-image: linear-gradient(orange, tomato);
     border-image-slice: 1;
@@ -34,15 +34,23 @@ h1{
 #text-align{
     text-align: center;
 }
-.experience-item{
+.mission-item{
+    width: 33%;
     margin-left: 2%;
     margin-right: 2%;
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 3%;
-    background-color: yellowgreen;
-    border-radius: 20px;
-    
+    border-radius: 30px;
+}
+#color-1{
+    background-color: rgb(100, 185, 177);
+}
+#color-2{
+    background-color: rgb(120, 207, 134);
+}
+#color-3{
+    background-color: rgb(93, 113, 179);
 }
 #flex{
     display: flex;
@@ -60,10 +68,29 @@ h1{
 
 footer{
     text-align: center;
-    background-color: rgb(226, 65, 145);
+    background-color: black;
     padding: 5px;
+color: blanchedalmond;
 }
-
+#footer-color{
+    color: rgb(170, 124, 212);
+}
 body{
     margin: 0;
+}
+.bottom-part{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    box-shadow: 10px 20px 10px rgb(207, 137, 32);
+    border-radius: 20px;
+}
+#bottom-background1{
+    background-image: url(image/pictures/pic-3.jpg);
+    
+}
+.bottom-background img{
+    width: 100%;
 }
