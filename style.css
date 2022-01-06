@@ -70,10 +70,10 @@ footer{
     text-align: center;
     background-color: black;
     padding: 5px;
-color: blanchedalmond;
+    color: white;
 }
 #footer-color{
-    color: rgb(170, 124, 212);
+    color:blue;
 }
 body{
     margin: 0;
